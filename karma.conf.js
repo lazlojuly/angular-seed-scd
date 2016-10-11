@@ -9,12 +9,17 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'components/**/*.js',
-      'view*/**/*.js'
+      'view*/**/*.js',
+      'services/**/*.js',
+      {
+        pattern: 'fixtures/*.json',
+        watched: true, served: true, included: false,
+      }
     ],
 
     autoWatch: true,
 
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine-jquery', 'jasmine'],
 
     browsers: ['Chrome'],
 
@@ -22,6 +27,7 @@ module.exports = function(config) {
       'karma-chrome-launcher',
       'karma-firefox-launcher',
       'karma-jasmine',
+      'karma-jasmine-jquery',
       'karma-junit-reporter'
     ],
 
