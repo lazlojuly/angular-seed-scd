@@ -4,6 +4,10 @@
 
 This project was cloned from the [Angular Seed](https://github.com/angular/angular-seed) application skeleton.
 
+It contains useful tested code examples: a service, a controller and a directive:
+
+* app/services/api-service
+
 ## Introduction
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
