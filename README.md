@@ -7,8 +7,8 @@ This project was cloned from the [Angular Seed](https://github.com/angular/angul
 It contains additional code examples (with tests): a service, a controller and a directive:
 
 * app/services/api-service (http service)
-* app/components/article-item (a directive)
-* app/components/list (a controller)
+* app/components/article-item (directive)
+* app/components/list (controller)
 
 ## Introduction
 
